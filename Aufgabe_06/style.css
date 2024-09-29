@@ -4,6 +4,7 @@
     padding: 10px;
 }
 .container{
+    background-color: yellow;
     display: grid;
     grid-template-columns: 33% 33% 33%;
     grid-auto-columns: minmax(100px, auto);
@@ -17,4 +18,10 @@
 
 .item2{
     grid-column: span 2;
+}
+
+@media (min-width: 1000px) {
+    .container {
+        background-color: green;
+    }
 }
