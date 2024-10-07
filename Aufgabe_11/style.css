@@ -1,0 +1,33 @@
+.Blue{
+    background-color: aqua;
+   height: 300px;
+   width: 600px;
+   margin: 20px;
+   position: relative;
+}
+.Title{
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.Brown{
+    background-color: brown;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+.Purple{
+    height: 50px;
+    width: 50px;
+    background-color: purple;
+    right: 0px;
+    top: 0px;
+    position: absolute;
+}
+.Yellow{
+    background-color: yellow;
+    width: 1912px;
+    height: 100px;
+}
