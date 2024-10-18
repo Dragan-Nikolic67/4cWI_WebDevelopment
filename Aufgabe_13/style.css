@@ -1,0 +1,41 @@
+.Blue{
+    height: 400px;
+    width: 200px;
+    background-color: aqua;
+    margin: 40px;
+    position: relative;
+}
+
+.Green{
+    width: 40px;
+    height: 40px;
+    background-color: greenyellow;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+}
+
+.Black{
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    margin: -20px;
+    margin-top: -20px;
+    position: absolute;
+}
+
+.Box{
+    margin: 40px;
+    width: 600px;
+    height: 35px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Vegetables{
+    height: 20px;
+    width: 40px;
+    background-color: greenyellow;
+}
