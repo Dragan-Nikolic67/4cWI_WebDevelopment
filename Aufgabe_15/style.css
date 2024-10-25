@@ -1,63 +1,45 @@
-.Cyan {
-    width: 500px;
-    height: 400px;
-    border: 1px solid rgb(20, 195, 226);
-    align-items: center;
-    margin: -20px;
-    position: absolute;
-    left: 0;
-    
-}
-
-.Blue {
-    width: 100px;
-    height: 100px;
-    background-color: blue;
-    margin-top: 150px;
-    margin-left: 200px;
-}
-
-.Purple {
-    width: 150px;
-    height: 150px;
-    border: 1px solid rgb(233, 16, 233);
-    margin-left: 425px;
-    margin-top: 75px;
-}
-
-.Box {
+.Container{
+    width: 100vw;
+    height: 500px;
     display: flex;
-    margin: 20px;
-    width: 98vw;
-    height: 280px;
-    border: 1px solid black;
-    position: relative;
-    justify-content: right;
-    
 }
-
-.Box2{
-    height: 280px;
-    width: 40vw;
-    justify-content: right;
-    justify-content: space-around;
-    display: flex;
+.Green{
+    height: 350px;
+    width: 200px;
+    border: 1px solid green;
+    margin: 50px;
     align-items: center;
-   
+    justify-content: center;
+    display: flex;
 }
 
-.Vegetables{
-height: 200px;
-width: 100px;
-border: 1px solid greenyellow;
-position: relative;
+.Square{
+    width: 79px;
+    height: 70px;
+    border: 1px solid green;
 }
 
-.Brown {
-    height: 33px;
-    width: 33px;
-    background-color: brown;
-    border: 1px solid greenyellow;
+.Blue{
+    right: 0;
+    width: 400px;
+    height: 320px;
+    margin-top: 20px;
+    border: 1px solid aqua;
     position: absolute;
     bottom: 0;
+}
+
+.White{
+    width: 100px;
+    height: 100px;
+    background-color: antiquewhite;
+}
+
+.Block{
+    width: 100px;
+    height: 100px;   
+    background-color: antiquewhite;
+    bottom: 0;
+    position: absolute;
+    margin-left: -50px;
 }
