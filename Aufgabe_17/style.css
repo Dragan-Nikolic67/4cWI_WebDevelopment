@@ -1,0 +1,58 @@
+.Container{
+    height: 400px;
+    width: 400px;
+    margin: 40px;
+    display: flex;
+    position: relative;
+    border: 1px solid green;
+}
+.Box{
+    height: 300px;
+    width: 200px;
+    border-bottom: 1px solid green;
+    border-top: 1px solid green;
+}
+
+.Box2{
+    height: 300px;
+    width: 200px;
+border-left: 1px solid black;
+    right: 0;
+    border-bottom: 1px solid orange;
+    position: relative;
+}
+
+.Long{
+    width: 400px;
+    height: 100px;
+    position: absolute;
+    border-bottom: 1px solid orange;
+    border-left: 1px solid orange;
+    bottom: 0;
+}
+
+.White{
+right: 0;
+width: 40px;
+height: 40px;
+background-color: black;
+position: absolute;
+}
+
+.Lower{
+    width: 250px;
+    height: 250px;
+    border: 1px solid black; 
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Middle{
+    height: 150px;
+    width: 150px;
+    border: 1px solid orange;
+}
