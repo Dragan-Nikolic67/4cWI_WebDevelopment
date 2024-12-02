@@ -46,3 +46,58 @@
       linear-gradient(90deg, #fff, rgba(0, 0, 0, 0.001) 50%); 
     z-index: 1;
 }
+
+.Dream{
+    font-size: 65px;
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 150px;
+    font-family: "Playfair Display", serif;
+}
+
+.Text1{
+    margin-left: 150px;
+    font-size: 17px;
+    margin-top: 500px;
+    position: absolute;
+    font-family: "Open Sans", sans-serif;
+}
+
+.container{
+    margin-left: 150px;
+    margin-top: 600px;
+
+    height: 60px;
+    width: 400px;
+    display: flex;
+    
+}
+
+.Mehr{
+height: 60px;
+width: 180px;
+background-color: white;
+justify-content: center;
+align-items: center;
+display: flex;
+border: 1px solid black; 
+}
+
+.erfahren{
+    font-size: 25px;
+    font-family: "Playfair Display", serif;
+}
+
+.Angebot{
+height: 60px;
+width: 180px;
+background-color: blue;
+justify-content: center;
+align-items: center;
+display: flex;
+border: 1px solid black; 
+margin-left: 10px;
+font-size: 22px;
+font-family: "Playfair Display", serif;
+color: white;
+}
