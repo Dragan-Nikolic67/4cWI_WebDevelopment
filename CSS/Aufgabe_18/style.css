@@ -101,3 +101,11 @@ font-size: 22px;
 font-family: "Playfair Display", serif;
 color: white;
 }
+
+.Chat{
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    margin-bottom: 30px;
+    margin-right: 30px;
+}
