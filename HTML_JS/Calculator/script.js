@@ -8,6 +8,8 @@ function addieren(){
     console.log(num1)
     console.log(result);
 
+    document.getElementById('Result').textContent = result;
+
 }
 
 function subtrahieren(){
@@ -19,6 +21,7 @@ function subtrahieren(){
 
     console.log(num1)
     console.log(result);
+    document.getElementById('Result').textContent = result;
 
 }
 
@@ -31,6 +34,7 @@ function multiplizieren(){
 
     console.log(num1)
     console.log(result);
+    document.getElementById('Result').textContent = result;
 
 }
 
@@ -43,6 +47,7 @@ function dividieren(){
 
     console.log(num1)
     console.log(result);
+    document.getElementById('Result').textContent = result;
 
 }
 
