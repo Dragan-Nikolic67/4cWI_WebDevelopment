@@ -1,0 +1,27 @@
+html{
+    background-color: purple;
+}
+
+input{
+    padding: 10px;
+    width: 100%;
+    
+}
+
+button{
+    width: 100%;
+   margin-bottom: 20px;
+}
+
+.box{
+    display: flex;
+}
+
+#Output{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    font-weight: 800;
+    font-size: 2em;
+}
