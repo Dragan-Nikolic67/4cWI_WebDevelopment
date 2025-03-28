@@ -1,13 +1,12 @@
 import { useState } from 'react'
-
-import  Components  from './components/Pages/Components'
+import People from './components/Pages/People'
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
     <>
-      <Components></Components>
+      <People></People>
       
      
     </>
