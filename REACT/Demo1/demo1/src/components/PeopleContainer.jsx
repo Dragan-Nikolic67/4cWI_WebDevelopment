@@ -1,14 +1,29 @@
-import React from 'react'
-import CardNew from './CardNew'
+import React, { useEffect, useState } from 'react';
+import CardNew from './CardNew';
 
 export default function PeopleContainer() {
+    const [people, setPeople] = useState([]);
+
+    useEffect(() => {
+        fetch("https://67b847a2699a8a7baef36631.mockapi.io/person")
+            .then((res) => res.json())
+            .then((data) => {
+                setPeople(data);
+            })
+    }, []);
+
     return (
-        <div className='flex flex-row'>
+        <div>
             <h1>People</h1>
-           
-                <div className='w-40'>
-                    <CardNew name="hans" title="ceo" imageUrl="https://picsum.photos/200/300" ></CardNew></div>
-            
+            <div className='grid grid-cols-2 lg:grid-cols-4 gap-4'>
+                {people.map((person) => (
+                    <CardNew
+                        name={person.name}
+                        imageUrl={person.avatar}
+                        title={person.jobtitle}
+                    ></CardNew>
+                ))}
+            </div>
         </div>
-    )
+    );
 }
