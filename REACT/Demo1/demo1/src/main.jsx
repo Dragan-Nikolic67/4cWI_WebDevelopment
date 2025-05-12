@@ -12,6 +12,10 @@ element: <Page1 />,
   path: "/p2",
   element: <Page2 />,
   },
+  {
+    path: "/super",
+    element: <Page1 />,
+    },
 
 ]);
 
